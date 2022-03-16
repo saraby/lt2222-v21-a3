@@ -51,6 +51,8 @@ What we can notice here is that extremely high numbers of epochs will be as bad 
 
 We notice in the output texts that the usually used words (which are the words most definitely were in the training data) were the most successful to be correctly guessed by the best models, the words (och, den, för, det, till, på, under, han, som, här, mycket, gå, honom, jag, sin, pris, från, i, om, etc..) but it also failed to guess (men ≠ mån, att ≠ ått, har ≠ här, ofta ≠ eftå med ≠ måd, stad ≠ ståd, efter ≠ eftår, också ≠ ickså, arbeta ≠ årbåtå, etc...)we notice the model tend to predict the vowels as 'å' in most cases for some reason. for the worst model we can notice that when used 1000 epochs the model guessed almost if not all the vowels to be 'é' which I couldn't explain the reason behind using this particular vowel above all else.
 
+P.S. I have uploaded both best models and also worst model gotten to the repository.
+
 
 ## Bonuses
 
